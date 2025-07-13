@@ -21,7 +21,7 @@ jobs:
       run: |
         curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
 
-    - name: Generate SBOM
+    - name: GENERATE SBOM APP INGJOSE HACKING
       run: |
         syft docker.io/dockeringjose/appwebhackgif:41-4499cd189511bc9f7f570a9f41890337e0e7cf8b -o spdx-json > spdx.json
 
