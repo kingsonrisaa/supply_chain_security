@@ -10,7 +10,7 @@ on:
       - master
 
 jobs:
-  generate-sbom:
+  generate-sbom-appingjose-hacking-cloud-k8s:
     runs-on: ubuntu-latest
 
     steps:
